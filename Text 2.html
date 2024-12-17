@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>text style </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&family=Protest+Strike&display=swap"
+        rel="stylesheet">
+    <style>
+        p {
+            font-family: "Playwrite CO Guides", cursive;
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        #demo1 {
+            height: 300px;
+            width: 400px;
+            background-color: cadetblue;
+            color: rgb(0, 0, 0);
+            transform: rotateX('180deg');
+            border: 1px solid rgb(29, 3, 55);
+
+        }
+
+        h2 {
+            text-decoration: overline;
+            text-transform: capitalize;
+        }
+
+        h3 {
+            text-decoration: underline;
+            text-transform: lowercase;
+
+        }
+
+        h4 {
+            text-decoration: line-through;
+            text-transform: uppercase;
+        }
+
+        .textshadow {
+            text-shadow: 1px 1px 2px rgb(200, 255, 0);
+            color: blanchedalmond;
+            background-color: black;
+        }
+
+        .boxshadow {
+            height: 100px;
+            width: 120px;
+            background-color: firebrick;
+            color: azure;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            font-style: italic;
+            box-shadow: 2px 4px 6px rgb(22, 13, 196);
+            border-radius: 8px;
+            border: 4px dotted lawngreen;
+            cursor: pointer;
+            transform: translateY(-2px);
+        }
+
+        .boxshadow:hover {
+            background-color: rgb(18, 13, 13);
+            box-shadow: 0 3px 9px rgb(179, 221, 10);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1> Text styling CSS</h1>
+    <p>Adolf Hitler remains one of the most reviled figures in world history due to his role in causing the deaths of millions
+    during World War II, particularly the Holocaust. His regime's genocidal policies, aggressive territorial expansion, and
+    racial hatred left an indelible mark on the 20th century and led to the loss of tens of millions of lives. His actions
+    led to the collapse of Nazi Germany and the establishment of a new world order, with the United Nations, the European
+    Union, and other international bodies created in the aftermath of the war to prevent future global conflicts.</p>
+    <div id="demo1">
+        Web development
+    </div>
+    <h2> Text decoration overline</h2>
+    <h3> Text decoration underline</h3>
+    <h4> Text decoration line-through</h4>
+    <p class="textshadow">
+        Adolf Hitler was a German politician and military leader who rose to power as Chancellor of Germany
+    </p>
+    <div class="boxshadow">
+        Führer
+    </div>
+</body>
+
+</html>
